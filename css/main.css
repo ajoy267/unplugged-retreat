@@ -127,6 +127,12 @@ address {
   width: 90%;
   margin: 50px 0;
 }
+img {
+  width: 100%;
+}
+figure {
+  margin: 0;
+ }
 
    /* -------------------- Base Header - Footer Styles -------------------- */
 header, footer {
@@ -151,6 +157,13 @@ header .content-wrapper {
   height: 1px;
   margin: 10px 0 20px 0;
   background: #3a3a3a; 
+}
+header figure {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 header nav {
   display: flex;
@@ -201,6 +214,10 @@ footer .copyright {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url(../img/jake-melara-30679-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
 }
 .hero-area h1 {
   font-size: 2.25em;
@@ -244,6 +261,9 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/rawpixel-800820-unsplash1.jpg');
+  background-size: cover;
+  background-position: center;
 }
 .features h2 {
   margin-bottom: 60px;
